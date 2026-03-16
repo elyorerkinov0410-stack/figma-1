@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prosto+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: justify;
+}
+
+.container {
+    width: 1110px;
+    margin: auto;
+}
+
+.navbar {
+    background: #282828;
+}
+
+.nav_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+.nav_left {
+    display: flex;
+    gap: 30px;
+}
+
+.nav_list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav_list li {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    list-style: none;
+    color: #fff;
+}
+
+.nav_right {
+    display: flex;
+    gap: 25px;
+}
+
+.hero {
+    background: url(imgs/f03abe06658d8e92550bfaae988b5d0db84b8462.jpg );
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.hero_content h1:hover {
+    letter-spacing: 10px;
+}
+
+h1::before {
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: white;
+    margin-top: 12px;
+}
+
+h1::after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: white;
+    margin-top: 12px;
+    align-self: flex-end;
+}
+
+.hero_content {
+    height: 635px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_content h1 {
+    margin-top: 204px;
+    margin-bottom: 38px;
+    font-family: Prosto One;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+.hero_content button {
+    width: 200px;
+    height: 50px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    border: none;
+    background: white;
+    color: #171718;
+}
+
+.main {
+    background: #151515;
+}
+
+.sec1_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.one_right img {
+    width: 100%;
+}
+
+.one_left p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 33px;
+    color: white;
+}
+
+.sec2_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 87px;
+}
+
+.two_left img {
+    width: 100%;
+}
+
+.two_right {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 200px;
+    color: white;
+}
+
+.sec3_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 86px;
+    margin-bottom: 79px;
+}
+
+.three_left p {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-top: 195px;
+    color: white;
+}
+
+.three_center img {
+    width: 100%;
+}
+
+.three_right p {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 195px;
+    color: white;
+}
+
+.sec4_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.four_card {
+    border: 2px solid white;
+    background: #FFFFFF;
+    width: 255px;
+    height: 312px;
+    border-radius: 6px;
+}
+
+.four_card img {
+    width: 127.5px;
+    height: 167px;
+    margin-top: 10px;
+    margin-left: 63px;
+}
+
+.four_card h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 15px;
+    margin-left: 58px;
+}
+
+.four_card p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 62px;
+}
+
+.four_card button {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    width: 161px;
+    height: 34px;
+    border: none;
+    background: #151515;
+    color: white;
+    margin-top: 20px;
+    margin-left: 47px;
+}
+
+.four_card2 {
+    border: 2px solid white;
+    background: #FFFFFF;
+    width: 255px;
+    height: 312px;
+    border-radius: 6px;
+}
+
+.four_card2 h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.four_card2 img {
+    width: 99px;
+    height: 167px;
+    margin-top: 10px;
+    margin-left: 77px;
+}
+
+.four_card2 p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 62px;
+}
+
+.four_card2 button {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    width: 161px;
+    height: 34px;
+    border: none;
+    background: #151515;
+    color: white;
+    margin-top: 20px;
+    margin-left: 47px;
+}
+
+.four_card3 {
+    border: 1px solid white;
+    background: #FFFFFF;
+    width: 255px;
+    height: 312px;
+    border-radius: 6px;
+}
+
+.four_card3 h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 15px;
+    margin-left: 74px;
+}
+
+.four_card3 img {
+    width: 103.42px;
+    height: 167px;
+    margin-top: 10px;
+    margin-left: 76px;
+}
+
+.four_card3 p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+
+    margin-top: 10px;
+    margin-left: 62px;
+}
+
+.four_card3 button {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    width: 161px;
+    height: 34px;
+    border: none;
+    background: #151515;
+    color: white;
+    margin-top: 20px;
+    margin-left: 47px;
+}
+
+.four_card4 {
+    border: 1px solid white;
+    background: #FFFFFF;
+    width: 255px;
+    height: 312px;
+    border-radius: 6px;
+}
+
+.four_card4 h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 15px;
+    margin-left: 73px;
+}
+
+.four_card4 img {
+    width: 109.7px;
+    height: 167px;
+    margin-top: 10px;
+    margin-left: 73px;
+}
+
+.four_card4 p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 62px;
+}
+
+.four_card4 button {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    width: 161px;
+    height: 34px;
+    border: none;
+    background: #151515;
+    color: white;
+    margin-top: 20px;
+    margin-left: 47px;
+}
+
+.footer {
+    background: #282828;
+    height: 215px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_right img {
+    width: 70px;
+    height: 55px;
+    margin-top: 135px;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+.footer_left {
+    display: flex;
+    gap: 339px;
+    align-items: center;
+}
+
+.footer_list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer_list li {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    list-style: none;
+    color: #fff;
+    margin-top: 151px;
+}
+
+.footer_right {
+    display: flex;
+    gap: 29px;
+}
+
+.footer_left img {
+    margin-top: 136px;
+}
